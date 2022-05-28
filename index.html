@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/index.js"></script>
+    <link rel = "stylesheet" href="styles/index.css">
+    <title>PokeIdentifier</title>
+
+</head>
+<body>
+    <div id ="pokemonCard"></div>
+    <h1> Poke-identifier</h1>
+    <div id ="input">
+        <input type ="text" id = "pokemonId" value = 1>
+        <br>
+        <button type = "button" id ="submitButton" onclick="normal();randomFalse(); fetchPokemon()">find pokemon!</button>
+        <br>
+        <button type = "button" id ="shinyButton" onclick="shinyChance()">change to shiny/return to normal</button>
+        <br>
+        <button type = "button" id ="randomButton" onclick="normal();randomize()">randomize</button>
+    </div>
+
+</body>
+</html>
+
